@@ -25,6 +25,16 @@ line-height: 1.17em;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
+.logo-span-footer{
+  color: #f4f4fd
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17em; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
 .nav-link {
   color: var(--navyblue, #2e2f42);
 
@@ -34,6 +44,8 @@ text-transform: uppercase;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+.adress-title{
+  background: var(--white, #FFF);}
 .adress-link {
   color: var(--slate, #434455);
 
@@ -47,7 +59,7 @@ font-style: normal
 .nav-link:focus,
 .adress-link:hover,
 .adress-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* Hero */
@@ -59,23 +71,23 @@ font-style: normal
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07em;
   letter-spacing: 1.12px;
 }
 .hero-button {
  color: var(--white, #FFF);
-font-family: Roboto;
+font-family: Roboto,sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 0.04em;
+line-height: 1.5em;
 letter-spacing: 0.64px;
   background-color: #4d5ae5;
   cursor: pointer
 }
 .hero-button:hover {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 
 /* Advantage  */
@@ -99,14 +111,14 @@ letter-spacing: 0.64px;
 
 /* Team  */
 .team-section {
-  background: var(--cloud, #f4f4fd);
+  background-color: #FFFFFF;
 }
 .team-title-section {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11em;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
