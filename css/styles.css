@@ -123,7 +123,10 @@ letter-spacing: 0.64px;
 
 /* Team  */
 .team-section {
-  background-color: #F4F4FD
+  background-color: #F4F4FD;
+}
+.team-list{
+  background-color: #FFFFFF
 }
 .team-title-section {
   color: var(--navyblue, #2e2f42);
@@ -141,7 +144,7 @@ letter-spacing: 0.64px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  background-color: var(--white, #FFF)
+  
 }
 .team-text {
   color: var(--slate, #434455);
@@ -150,6 +153,7 @@ letter-spacing: 0.64px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  
 }
 /* Portfolio */
 .portfolio-section{
